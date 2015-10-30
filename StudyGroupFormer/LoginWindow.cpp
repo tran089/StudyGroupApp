@@ -5,20 +5,23 @@
 #include "CreateUser.h"
 #include <QDebug>
 
+
+
 LoginWindow::LoginWindow(QWidget *parent) :
     QMainWindow(parent),
     ui(new Ui::LoginWindow)
 {
     main_app_window = new AppWindow(this);
     ui->setupUi(this);
+
+    QPixmap pix("C:/Users/nguye/Documents/GitHub/StudyGroupApp/StudyGroup.jpg");
+    ui->label_pic->setPixmap(pix);
 }
 
 LoginWindow::~LoginWindow()
 {
     delete ui;
 }
-
-
 
 void LoginWindow::on_loginButton_clicked()
 {
@@ -51,3 +54,4 @@ void LoginWindow::on_createButton_clicked()
     create_user_window->setGeometry(geometry());
     create_user_window->show();
 }
+

@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>400</width>
+    <width>415</width>
     <height>600</height>
    </rect>
   </property>
@@ -24,7 +24,7 @@
     <property name="geometry">
      <rect>
       <x>110</x>
-      <y>130</y>
+      <y>140</y>
       <width>171</width>
       <height>21</height>
      </rect>
@@ -37,7 +37,7 @@
     <property name="geometry">
      <rect>
       <x>110</x>
-      <y>180</y>
+      <y>200</y>
       <width>171</width>
       <height>21</height>
      </rect>
@@ -72,14 +72,27 @@
      <string>Create Account</string>
     </property>
    </widget>
+   <widget class="QLabel" name="label_pic">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>10</y>
+      <width>151</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>400</width>
-     <height>22</height>
+     <width>415</width>
+     <height>21</height>
     </rect>
    </property>
   </widget>
