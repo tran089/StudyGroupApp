@@ -11,6 +11,9 @@ LoginWindow::LoginWindow(QWidget *parent) :
 {
     main_app_window = new AppWindow(this);
     ui->setupUi(this);
+
+    QPixmap pix("C:/Users/nguye/Documents/GitHub/StudyGroupApp/StudyGroup.jpg");
+    ui->label_pic->setPixmap(pix);
 }
 
 LoginWindow::~LoginWindow()
